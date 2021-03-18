@@ -1,0 +1,45 @@
+public class Main{
+
+    private Main(){
+
+        Friends f = Friends.SIMAR;
+        System.out.println(simar.getAge() + " " + simar.isHuman);
+        simar.displayOrdinal();
+    }
+
+    enum Friends {
+
+        SIMAR(21), DEA(20), FAHAD(22), ASMA(21), CHAHAT(20, false);
+
+        private int age;
+        private boolean isHuman;
+        
+        Friends(int age){
+            this.age = age;
+            this.isHuman = true;
+        }
+
+        Friends(int age, boolean isHuman){
+            this.age = age;
+            this.isHuman = isHuman;
+        }
+
+        public void displayOrdinal(){
+            System.out.println(this + " " + this.ordinal());
+        }
+
+        public int getAge(){
+            return this.age;
+        }
+
+        public boolean getIsHuman(){
+            return this.isHuman;
+        }
+
+    }
+
+    public static void main(String[] args) {
+        new Main();
+    }
+    
+}

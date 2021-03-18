@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/execption_handling.dir/main.cpp.o CMakeFiles/execption_handling.dir/Person.cpp.o -o execption_handling 

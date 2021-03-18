@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paramvir-singh/Projects/C++/C++Basics/execption_handling/IllegalAgeException.hpp
+
+/home/paramvir-singh/Projects/C++/C++Basics/execption_handling/Person.hpp
+string
+-
+
+/home/paramvir-singh/Projects/C++/C++Basics/execption_handling/main.cpp
+iostream
+-
+Person.hpp
+/home/paramvir-singh/Projects/C++/C++Basics/execption_handling/Person.hpp
+IllegalAgeException.hpp
+/home/paramvir-singh/Projects/C++/C++Basics/execption_handling/IllegalAgeException.hpp
+
